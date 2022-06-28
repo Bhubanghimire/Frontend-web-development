@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Making table</title>
+    </head>
+    <style>
+        table {
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 1em;
+  background: #ddd;
+  border-bottom: 2px solid white; 
+}
+
+.css-mine {
+  margin-top: 2em;
+  clear: both;
+}
+
+body {
+  margin: 1.5em;
+}
+    </style>
+    <body>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Quick</td>
+                    <td colspan="2">brown fox </td>
+                    <td>jumps</td>
+
+                </tr>
+                <tr>
+                    <td rowspan="3" colspan="1">over the</td>
+                    <td>lazy</td>
+                    <td>dog</td>
+                    <td>and</td>
+                </tr>
+                <tr>
+                    <td>then</td>
+                    <td>it</td>
+                    <td>falls</td>
+
+                </tr>
+                <tr>
+                    <td colspan="4">preety then a lion</td>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <th colspan="4">November was more produstive</th>
+                    </tr>
+                </tfoot>
+            </tbody>
+        </table>
+    </body>
+</html>
