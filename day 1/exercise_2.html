@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table exercise</title>
+    <style>
+        table {
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 1em;
+  background: #ddd;
+  border-bottom: 2px solid white; 
+}
+
+.css-mine {
+  margin-top: 2em;
+  clear: both;
+}
+
+body {
+  margin: 1.5em;
+}
+    </style>
+</head>
+<body>
+    a test table with merge cell
+    <table>
+        <tbody>
+            <thead>
+                <tr>
+                    <td rowspan="2"></td>
+                    <td colspan="2">Average</td>
+                    <td rowspan="2">Red Eyes</td>
+                </tr>
+                <tr>
+                    <td>height</td>
+                    <td>weight</td>
+                </tr>
+                <tr>
+                    <td>Male</td>
+                    <td>12</td>
+                    <td>30</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Female</td>
+                    <td>14</td>
+                    <td>30</td>
+                    <td>3</td>
+                </tr>
+            </thead>
+
+        </tbody>
+    </table>
+</body>
+</html>
