@@ -1,0 +1,16 @@
+h3 {
+    color: aqua;
+    font-size: 100px;
+}
+
+/* id selector */
+#anotherid {
+    font-size: 40px;
+    color: black;
+}
+
+/* grouping selector */
+.para,
+idname {
+    color: red;
+}
