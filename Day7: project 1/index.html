@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>project 1</title>
+        <style>
+        body{
+                margin: 0px;
+                padding: 0px;
+                background: url("img/bg.jpg") no-repeat;
+                background-size: cover;
+                height: 100%;
+                color: white;
+        }
+
+        .left{
+            position:absolute;
+            /* border:5px solid black; */
+            width: 30%;
+            top: 25px;
+            color: black;
+            font-size: large;
+            left: 4%;
+            font-weight: bold;
+            
+           
+        }
+        .left img{
+            width: 100px;
+            height: auto;
+            padding-right: 30px;
+        }
+
+        .mid{
+            /* border:5px solid red; */
+            width: 30%;
+            display: block;
+            margin:20px auto;
+        }
+
+        .right{
+            /* border:5px solid yellow; */
+            padding-left: 0%;
+            width: 30%;
+            position: absolute;
+            right: 2px;
+            top: 20px;
+
+        }
+        .navbar ul{
+            display: flex;
+            margin: auto;
+            list-style-type: none;
+
+        }
+        ul li a{
+            text-decoration: none;
+            padding: 20px;
+            color: black;
+            font-size: 20px;
+        }
+        .right input{
+            margin-left: 35%;
+            height: 20px;
+            border-radius: 10px;
+        }
+        .right button{
+            
+            height: 25px;
+            border-radius: 10px;
+        }
+        .container{
+            color: black;
+            border: 3px solid black;
+            width: 40%;
+            position: absolute;
+            top: 10%;
+            left: 10%;
+        }
+
+    </style>
+    </head>
+    <body>
+        <header>
+            <div class="left">
+                BHUBAN GHIMIRE
+                <!-- <img src="img/logo.png" alt=""> -->
+            </div>
+
+            <div class="mid">
+                <div class="navbar">
+                    <ul>
+                        <li><a href="">Home</a><li>
+                        <li><a href="">About</a><li>
+                        <li><a href="">Fitness Calculator</a></li>
+                        <li><a href="">ContactUs</a><li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <input type="text" name="search" id="search" placeholder="   search here">
+                <button type="submit">Search</button>
+                <button type="submit">Call Us</button>
+                <button type="submit">Email</button>
+            </div>
+            </header>
+
+            <div class="container">
+                <h2>please enter data</h2>
+        <form action="" method="post">
+            <label for="name">Name:</label>
+            <div>
+            
+                <input type="text" id="name" name="name">
+            </div>
+           
+            <br>
+            <label for="email">Email:</label>
+            <div>
+                <input type="email" name="" id="">
+            </div>
+            <br>
+            <label for="phone">Phone:</label>
+            <div>
+                <input type="number" name="" id="">
+            </div>
+            <br>
+            <label for="dob">Date of Birth:</label>
+            <div>
+                <input type="date" name="" id="">
+            </div>
+            <br>
+            <label for="description">Description:</label>
+            <div>
+              <Textarea rows="10" cols="80"></Textarea>
+            </div>
+            <br>
+            <label for="check">Are You eligible?</label>
+            <div>
+                <input type="checkbox" name="" id="">
+            </div>
+            <label for="gender">Gender</label>
+            <div>
+                <input type="radio" name="Gender" id="">Male
+                <input type="radio" name="Gender" id="">Female
+            </div>
+
+            <br>
+            <div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    
+            </div>
+    </body>
+</html>
